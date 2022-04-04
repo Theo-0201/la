@@ -39,6 +39,7 @@ public class Logger implements ILogging {
 	}
 
 	@Override
+	//ff
 	public void log(String msg) {
 		String log = String.format("%s (%s) - %s", this.messagePattern, LocalDateTime.now().toString(), msg);
 		try {
